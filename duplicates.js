@@ -6,7 +6,7 @@ function hasDuplicates(array) {
 }
 console.log(hasDuplicates(selectors));
 
-//console.dir(selectors);
+console.dir(selectors);
 
 var sorted_arr = selectors.slice().sort();
 var results = [];
